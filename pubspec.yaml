@@ -1,0 +1,67 @@
+name: store
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Oswald
+      fonts: 
+        - asset: assets/fonts/OswaldRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanCondensedRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+    - family: Roboto Slab
+      fonts: 
+        - asset: assets/fonts/RobotoSlabBold.ttf
+          weight: 700
+    - family: IBM Plex Sans Condensed
+      fonts: 
+        - asset: assets/fonts/IBMPlexSansCondBold.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSansCondRegular.ttf
+          weight: 400
+    - family: IBM Plex Sans
+      fonts: 
+        - asset: assets/fonts/IBMPlexSansRegular.ttf
+          weight: 400
+    - family: IBM Plex Mono
+      fonts: 
+        - asset: assets/fonts/IBMPlexMonoRegular.ttf
+          weight: 400
+    - family: Gupter
+      fonts: 
+        - asset: assets/fonts/GupterRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Lexend Deca
+      fonts: 
+        - asset: assets/fonts/LexendDecaMedium.ttf
+          weight: 500
